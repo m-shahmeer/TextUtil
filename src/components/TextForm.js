@@ -16,7 +16,7 @@ export default function (props) {
     setText(newText);
   }
   
-  const [text, setText] = useState('Enter text here');
+  const [text, setText] = useState('');
 
   return (
     <>
