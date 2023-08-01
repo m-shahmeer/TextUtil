@@ -17,9 +17,7 @@ export default function (props) {
   }
   
   const handlecopyclick = ()=> {
-    var text = document.getElementById("myBox");
-    text.select();
-    navigator.clipboard.writeText(text.value);
+    navigator.clipboard.writeText(text);
   }
 
   const handleExtraSpaces = () => {
